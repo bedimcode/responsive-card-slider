@@ -1,0 +1,33 @@
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px){  
+   .card__data{
+      padding: 1rem;
+   }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px){
+   .card__content{
+      margin-inline: 3rem;
+   }
+
+   .swiper-button-next,
+   .swiper-button-prev {
+      display: block;
+   }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px){
+   .card__container{
+      max-width: 1120px;
+   }
+
+   .swiper-button-prev{
+      left: -1rem;
+   }
+   .swiper-button-next{
+      right: -1rem;
+   }
+}

@@ -1,0 +1,104 @@
+/*=============== CARD ===============*/
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.card{
+   &__container{
+      padding-block: 5rem;
+   }
+   &__content{
+      margin-inline: 1.75rem;
+      border-radius: 1.25rem;
+      overflow: hidden;
+   }
+   &__article{
+      width: 300px; // Remove after adding swiper js
+      border-radius: 1.25rem;
+      overflow: hidden;
+   }
+   &__image{
+      position: relative;
+      background-color: var(--first-color-light);
+      padding-top: 1.5rem;
+      margin-bottom: -.75rem;
+   }
+   &__data{
+      background-color: var(--container-color);
+      padding: 1.5rem 2rem;
+      border-radius: 1rem;
+      text-align: center;
+      position: relative;
+      z-index: 10;
+   }
+   &__img{
+      width: 180px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 5;
+   }
+   &__shadow{
+      width: 200px;
+      height: 200px;
+      background-color: var(--first-color-alt);
+      border-radius: 50%;
+      position: absolute;
+      top: 3.75rem;
+      left: 0;
+      right: 0;
+      margin-inline: auto;
+      filter: blur(45px);
+   }
+   &__name{
+      font-size: var(--h2-font-size);
+      color: var(--second-color);
+      margin-bottom: .75rem;
+   }
+   &__description{
+      font-weight: 500;
+      margin-bottom: 1.75rem;
+   }
+   &__button{
+      display: inline-block;
+      background-color: var(--first-color);
+      padding: .75rem 1.5rem;
+      border-radius: .25rem;
+      color: var(--dark-color);
+      font-weight: 600;
+   }
+}
+
+/* Swiper class */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+   content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+   width: initial;
+   height: initial;
+   font-size: 3rem;
+   color: var(--second-color);
+   display: none;
+}
+
+.swiper-button-prev{
+   left: 0;
+}
+
+.swiper-button-next{
+   right: 0;
+}
+
+.swiper-pagination-bullet {
+   background-color: hsl(212, 32%, 40%);
+   opacity: 1;
+}
+ 
+.swiper-pagination-bullet-active {
+   background-color: var(--second-color);
+}
