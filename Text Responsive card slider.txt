@@ -1,0 +1,14 @@
+========== CARD SLIDER ==========
+.card__name
+Kell Dawx
+Lotw Fox
+Sara Mit
+Jenny Wert
+Lexa Kin
+
+.card__description
+Passionate about development and design, 
+I carry out projects at the request of users.
+
+.card__button
+View More
