@@ -1,5 +1,5 @@
-# Responsive Card Slider
-## [Watch it on youtube](https://youtu.be/b71OeOAEQrQ)
+# Responsive Card Slider ARKA WIMAYA
+## [Watch it on youtube](https://youtu.be/b71OeOAEQrQ) 
 ### Responsive Card Slider
 
 - Responsive Card Slider Using HTML CSS & JavaScript
